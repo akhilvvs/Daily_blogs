@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VVS blogs</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+</head>
+<body>
+ <div class="container">
+    <%- include("partials/header.ejs") %>
+        <div class="about">
+            <h4 class="about_info">Dev Description</h4>
+            <p class="about_body"> 
+                The goal of this project is to create a Blog web application using Node.js, Express.js, and EJS.
+                The application will allow users to create and view blog posts. 
+                Posts will not persist between sessions as no database will be used in this version of the application.
+                Styling will be an important aspect of this project to ensure a good user experience. 
+            </p>
+           </div>
+        <div class="features">
+            <h4 class="features_info">Features</h4>
+            <div class="features_body">
+             <p>1. Post Creation: Users should be able to create new posts.</p>
+             <p>2. Post Viewing: The home page should allow the user to view all their posts.</p>
+             <p>3. Post Update/Delete: Users should be edit and delete posts as needed.</p>
+             <p> 4. Styling: The application should be well-styled and responsive, ensuring a good user experience on both desktop and mobile devices.</p>
+            </div>
+        </div>
+        <div class="email">  
+        </div>
+    </div>
+    <%- include("partials/footer.ejs") %>
+ </div>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous">
+   </script> 
+</body>
+</html>

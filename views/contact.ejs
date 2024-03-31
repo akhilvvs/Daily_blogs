@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VVS blogs</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+</head>
+<body>
+ <div class="container">
+    <%- include("partials/header.ejs") %>
+<div class="contact text-center">
+    <h1>Contact Us</h1>
+    <h6>(Gmail:akhilesh90123@gmail.com)</h6>
+</div>
+<div class="row">   
+ <div class="col-lg-6 offset-lg-3 centered-form">
+    <form action="mailto:mail.google.com" method="post" enctype="text/plain">
+    <div class="mb-3">
+      <label for="">Your name:</label>
+      <input type="text" name="yourname">
+    </div>
+      <div class="mb-3">
+        <label for="">Your email:</label>
+        <input type="email" name="email" id="id">
+      </div>
+    <div class="mb-3">
+        <label for="">Your message:</label><br>
+        <textarea type="text" rows="10" cols="30"></textarea>
+    </div>    
+    <div class="text-center">
+         <button style="margin-bottom: 10px;" type="submit" name="yourname" class="btn_submit">Submit</button>
+    </div>
+ </div>
+</div>
+    <%- include("partials/footer.ejs") %>
+ </div>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous">
+   </script> 
+</body>
+</html>
