@@ -3,7 +3,7 @@
 
 # Instructions
 In the terminal use this command to clone it
-git clone - 
+git clone - https://github.com/akhilvvs/Daily_blogs.git
 
 Then cd into the folder
 Then ..... npm i ..... to install the modules
